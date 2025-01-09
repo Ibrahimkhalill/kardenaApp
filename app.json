@@ -1,0 +1,57 @@
+{
+  "expo": {
+    "name": "WahtsAppBot",
+    "slug": "WahtsAppBot",
+    "scheme": "Wahtsappbot",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./app/assets/icon.png",
+    "newArchEnabled": true,
+    "splash": {
+      "image": "./app/assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.aininja.MedWorldApp",
+      "infoPlist": {
+        "NSAppTransportSecurity": {
+          "NSAllowsArbitraryLoads": true
+        }
+      }
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./app/assets/adaptive-icon.png",
+        "backgroundColor": "#ffffff"
+      },
+      "package": "com.aininja.MedWorldApp",
+      "googleServicesFile": "./google-services.json",
+      "permissions": [
+        "INTERNET",
+        "RECEIVE_BOOT_COMPLETED",
+        "VIBRATE",
+        "com.google.android.c2dm.permission.RECEIVE"
+      ]
+    },
+    "web": {
+      "favicon": "./app/assets/favicon.png"
+    },
+    "updates": {
+      "enabled": false
+    },
+    "plugins": [
+      "expo-font",
+      "expo-localization",
+      "react-native-video",
+      "expo-document-picker"
+    
+    ],
+    "extra": {
+      "eas": {
+        "projectId": "835f8afe-b844-491a-a559-ff915c55419f"
+      }
+    }
+  }
+}
