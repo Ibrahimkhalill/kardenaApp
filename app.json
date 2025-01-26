@@ -1,8 +1,8 @@
 {
   "expo": {
-    "name": "WahtsAppBot",
-    "slug": "WahtsAppBot",
-    "scheme": "Wahtsappbot",
+    "name": "kardena",
+    "slug": "Kardena",
+    "scheme": "kardena",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./app/assets/icon.png",
@@ -14,7 +14,6 @@
     },
     "ios": {
       "supportsTablet": true,
-      "bundleIdentifier": "com.aininja.MedWorldApp",
       "infoPlist": {
         "NSAppTransportSecurity": {
           "NSAllowsArbitraryLoads": true
@@ -26,14 +25,13 @@
         "foregroundImage": "./app/assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
       },
-      "package": "com.aininja.MedWorldApp",
-      "googleServicesFile": "./google-services.json",
       "permissions": [
         "INTERNET",
         "RECEIVE_BOOT_COMPLETED",
         "VIBRATE",
         "com.google.android.c2dm.permission.RECEIVE"
-      ]
+      ],
+      "package": "com.aininja.Kardena"
     },
     "web": {
       "favicon": "./app/assets/favicon.png"
@@ -46,12 +44,12 @@
       "expo-localization",
       "react-native-video",
       "expo-document-picker"
-    
     ],
     "extra": {
       "eas": {
-        "projectId": "835f8afe-b844-491a-a559-ff915c55419f"
+        "projectId": "f9f34af5-140c-4bf7-8011-d6003eab6d39"
       }
-    }
+    },
+    "owner": "aininja"
   }
 }
