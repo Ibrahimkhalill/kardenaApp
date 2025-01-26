@@ -1,3 +1,2 @@
-"# MedWorldAppReactNative" 
-"# WhatsAppChatbot" 
+
 "# kardenaApp" 
